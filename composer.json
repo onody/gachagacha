@@ -1,0 +1,17 @@
+{
+    "name": "onody/gachagacha",
+    "description": "Gacha-Gacha is an implementation of weighted randomization in PHP.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kohei Onodera",
+            "email": "onodera212@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.4"
+    }
+}
