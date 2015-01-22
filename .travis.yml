@@ -7,6 +7,12 @@ sudo: false
 
 before_script:
     - travis_retry composer self-update
+    - travis_retry composer require satooshi/php-coveralls:0.* --dev
     - travis_retry composer install --no-interaction --prefer-source --dev
 
-script: phpunit
+script:
+    - phpunit
+    - phpunit --coverage-clover build/logs/clover.xml
+
+after_script:
+    - php vendor/bin/coveralls
