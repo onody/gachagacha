@@ -3,7 +3,7 @@ Gacha-Gacha
 
 ## Description
 
-Gacha-Gacha is an implementation of weighted randomization in PHP.
+Gacha-Gacha is an implementation of weighted randomization in PHP.  
 Gacha-Gacha requires PHP >= 5.3.3.
 
 ## Usage
